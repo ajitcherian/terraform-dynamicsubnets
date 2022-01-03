@@ -2,26 +2,21 @@ variable "project-name" {
   type        = string
   description = "Project name"
 }
+
 variable "stack" {
   type        = string
-  description = "Project name environment"
+  description = "Project stack"
 }
 
 variable "owner" {
   type        = string
-  description = "Project owner"
+  description = "Project owner name"
 }
-
 
 variable "region" {
   type        = string
   description = "region"
 }
-
-/*variable "az-count" {
-  type        = string
-  description = "number of avaialability zone need"
-}*/
 
 variable "public-subnet" {
   type        = number
@@ -47,5 +42,4 @@ variable "newbits" {
 variable "tls-ports" {
   type        = list(number)
   description = "Allow TLS port all traffic access"
-  #default = [80, 443]
 }
