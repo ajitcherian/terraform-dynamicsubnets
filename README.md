@@ -3,6 +3,7 @@
 ## Description
 > By this terraform code you can create VPC and subnet(private and public) on different availability zone dynamically.
 > Also it will create a security group using dynamic block for minimizing the script.
+
 > Modify **terrafor.tfvars** file according to your requirement.
 
 For more information, you can refer below link to have a detailed understanding of the function **cidrsubent**.
