@@ -2,7 +2,9 @@
 
 ## Description
 > By this terraform code you can create VPC and subnet(private and public) on different availability zone dynamically.
-> Also it will create a security group using dynamic block for minimizing the script.
+
+> You can set the number of public and private subnets needed, security group rules for all TLS ports having public inbound access, create route table and internet gateway.
+> Also it will create a security group using dynamic block for minimizing the line of code.
 
 > Modify **terrafor.tfvars** file according to your requirement.
 
